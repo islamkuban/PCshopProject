@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(255, 255, 255)/*Даёт цвет фону в заголовке*/
+}
+
+.menu{
+    list-style: none;/*Убирает точки*/
+    background: linear-gradient(45deg, rgb(255, 95, 255), rgb(190, 0, 190));
+   display: flex;/*Выравнивает горизонтально*/
+   justify-content: center;/*Распологает по центру*/
+   padding-top: 50px;
+}
+
+a{
+    text-decoration: none;/*Убирает нижнее подчёркивание*/
+}
+
+.menu li{/*Обращение родителя к дочернему*/
+        font-size: 20px;/*Увеличивает размер букв*/
+        margin: 0px 20px 35px 20px;/*Отступы от границ*/
+        color: rgb(0, 0, 100);/*Даёт цвет*/
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url('https://foni.papik.pro/uploads/posts/2024-09/foni-papik-pro-17be-p-kartinki-chernie-tochki-na-prozrachnom-fon-3.png'); /*Даёт фон всему сайту*/
+    background-size: cover; /* Растягивает изображение, чтобы покрыть весь экран */
+    background-repeat: no-repeat; /* Отключает повторение изображения */
+    background-attachment: fixed; /* Фиксирует фон при прокрутке */
+    background-position: center; /* Центрирует изображение */
+}
+
+footer {
+    background: linear-gradient(45deg, rgb(135, 0, 135), rgb(255, 0, 255));
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
